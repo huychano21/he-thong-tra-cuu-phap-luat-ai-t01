@@ -1,0 +1,6 @@
+numpy==2.0.0
+pandas==2.2.2
+pyarrow==20.0.0
+rank-bm25==0.2.2
+requests==2.32.3
+sentence-transformers==4.1.0
