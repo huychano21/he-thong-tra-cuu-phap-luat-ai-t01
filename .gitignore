@@ -31,4 +31,18 @@ tmp/
 *.toc
 *.xdv
 
+
 Hybrid_RRF_Vietnamese_Legal_Overleaf/
+
+@"
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.spec
+*.exe
+*.bat
+models/
+~$*.docx
+~$*.pdf
+"@ | Set-Content -Path ".gitignore" -Encoding UTF8
